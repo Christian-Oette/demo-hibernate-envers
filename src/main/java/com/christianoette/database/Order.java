@@ -7,12 +7,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "orders")
-public class Order {
-
-    @Version
-    @Audited
-    @Column(name = "version")
-    private Short version;
+public class Order extends AbstractEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
