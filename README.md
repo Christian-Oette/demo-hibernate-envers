@@ -1,5 +1,7 @@
 # Demo project to test hibernate envers
 
+See blog post https://christianoette.com/de/blog/blog-post/2022-05-10-hibernate-envers
+
 This is a demo project to test auditing with hibernate envers.
 You can create orders and update them interactively.
 
